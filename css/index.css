@@ -1,48 +1,52 @@
-/* Contains the styling for index.html */
+/* Styling for index/home page */
 
-/* Index center label */
-
-
-#index-label {
-    flex:1;
-
+#home-body {
+    background: url("../img/home-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    height: 100%;
 }
 
-#index-label h1{
-    font-size: 175px;
-    flex:1;
-    flex-wrap: wrap;
-    align-self: flex-end;
-    margin-top: auto;
-}
-
-/* Index navigation bar */
-
-#index-nav {
+#home-title {
     flex: 1;
-}
-
-#index-nav ul {
-    padding: 0;
     text-align: center;
-    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
-#index-nav li {
-    font-size: 30px;
-    display: inline;   
+#home-title h1 {
+    flex:1;
+    font-size: 150px;
+    align-self: flex-end;
+    color: white;
+    /* text-shadow: 0 0 10px black; */
+
+}
+
+#home-nav {
+    flex: 1;
+    font-size: 40px;
+}
+
+#home-nav ul {
+
     text-align: center;
 }
 
-#index-nav a {
-    text-decoration: none;
-    padding: 10px;
-    
+#home-nav li {
+    display: inline;
+    padding: 20px;
 }
 
+#home-nav a {
+    color: white;
+    font-weight: 700;
+    /* text-shadow: 0 0 10px black; */
+}
 
-
-
-
+#home-nav a:hover{
+        color: white;
+    border-bottom: 2px solid;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+
+/* Base CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+html {
+    height: 100%;
+}
+
+
+body {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
