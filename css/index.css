@@ -1,6 +1,6 @@
 /* Styling for index/home page */
 
-#home-body {
+.home-body {
     background: url("../img/home-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,14 +9,14 @@
     height: 100%;
 }
 
-#home-title {
+.home-title {
     flex: 1;
     text-align: center;
     display: flex;
     flex-direction: row;
 }
 
-#home-title h1 {
+.home-title h1 {
     flex:1;
     font-size: 150px;
     align-self: flex-end;
@@ -25,28 +25,28 @@
 
 }
 
-#home-nav {
+.home-nav {
     flex: 1;
     font-size: 40px;
 }
 
-#home-nav ul {
+.home-nav ul {
 
     text-align: center;
 }
 
-#home-nav li {
+.home-nav li {
     display: inline;
     padding: 20px;
 }
 
-#home-nav a {
+.home-nav a {
     color: white;
     font-weight: 700;
     /* text-shadow: 0 0 10px black; */
 }
 
-#home-nav a:hover{
+.home-nav a:hover{
         color: white;
     border-bottom: 2px solid;
 }
