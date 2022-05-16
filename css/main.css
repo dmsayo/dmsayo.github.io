@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=IBM+Plex+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=IBM+Plex+Serif:wght@100&family=Libre+Baskerville&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,7 +15,9 @@ html {
 
 body {
     margin: 0;
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', serif;
+    /* font-family: 'IBM Plex Serif', serif; */
+    /* font-family: 'Libre Baskerville', serif; */
     font-size: 17px;
     line-height: 1.6;
 }
@@ -52,7 +56,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .landing__title h1{
+    .landing__title h1 {
         font-size: 120px;
         line-height: 1.3;
         padding-bottom: 30px;
@@ -93,29 +97,128 @@ body {
 
 .about {
     display: flex;
+    flex-direction: column;
+
     width: auto;
-    height: 100vh;
-    padding: 0;
+    /* height: 800px; */
+    padding 0;
     margin: 0;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
-    flex-wrap: wrap;
+    background-color: #efebeb;
+
+    color: black;
 }
+
+.about__header {
+    flex: 10%;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px;
+
+    display: flex;
+
+
+    /* Debug */
+    /* background-color: orange; */
+}
+
+.about__header h1 {
+    flex: 1;
+    font-size: 50px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+
+    /* Debug */
+    /* background-color: brown; */
+}
+
+
+.about__body {
+    flex: 90%;
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+
+    min-width: 800px;
+    max-width: 100%;
+
+    height: 500px;
+}
+
 
 .about__image {
-    flex: 1;
+    /* flex: 400px; */
+
     display: flex;
-    width: auto;
+    justify-content: center;
+    align-items: center;
+
+    width: 450px;
     height: auto;
 
+    padding-right: 50px;
+
+    /* Debug */
+    /* background-color: red; */
 }
 
- 
-.about__text {
-    padding: 20px;
-    color: white;
+.about__image img {
     flex: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin: 20px;
+
+    /* Debug */
+    /* background-color: black; */
+}
+
+.about__text {
+    /* flex: 600px; */
+    width: 65%;
+    min-width: 500px;
+    max-width: 700px;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content:  */
+
+    color: black;
+
+
+    /* Debug */
+    /* background-color: black; */
+}
+
+.about__title {
+    font-size: 30px;
+    /* text-decoration: underline;
+    text-underline-offset: 10px; */
+
+    padding: 20px;
+    /* margin: 10px; */
+
+    /* Debug */
+    /* background-color: violet; */
+}
+
+.about__para {
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.4;
+    /* margin: 10px; */
+
+
+    /* Debug */
+    /* background-color: steelblue; */
 }
 
 /* Projects */
@@ -132,8 +235,12 @@ body {
 }
 
 .projects__header {
-    font-size: 80px;
-    padding: 30px;
+    font-size: 50px;
+    margin: 30px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+
+    background-color: cadetblue;
 }
 
 .projects__card {
@@ -145,15 +252,17 @@ body {
 
     min-height: 500px;
     min-width: 800px;
+    max-width: 100%;
 
     display: flex;
-    /* flex-wrap: wrap; Add this in with media query */
+    flex-wrap: wrap;
     text-align: center;
     width: 100%;
     max-width: 50%;
     background-color: grey;
     /* border-radius: 20px; */
 }
+
 /* 
 @media only screen and (max-width: 900px) {
     .projects__card {
