@@ -1,0 +1,8 @@
+{
+  "name": "dmsayo.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dmsayo/dmsayo.github.io.git",
+  "author": "dmsayo <derrylmsayo@gmail.com>",
+  "license": "MIT"
+}
