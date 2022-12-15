@@ -4,7 +4,7 @@
     flex: 1;
     flex-shrink: 1;
     margin: 20px 0px;
-    padding: 10px;
+    padding: 30px;
 
     max-width: 100%;
 
@@ -21,5 +21,26 @@
 }
 
 .project-card__title {
+    color: #dedede;
     font-size: 40px;
+}
+
+.project-card__description {
+    padding: 15px 0px;
+}
+
+.project-card__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+}
+
+.project-card__link-nav {
+    display: flex;
+}
+
+.project-card__link-nav:hover {
+    cursor: pointer;
+    color: rgba(14, 144, 101);
 }

@@ -26,3 +26,8 @@
 .navbar__link-item {
     padding-left: 15px;
 }
+
+.navbar__link-item:hover {
+    cursor: pointer;
+    color: rgba(14, 144, 101);
+}

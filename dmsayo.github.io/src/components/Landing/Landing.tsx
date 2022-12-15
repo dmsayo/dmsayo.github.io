@@ -23,7 +23,7 @@ export const Landing = () => {
             </div>
             <div className="landing__bottom">
                 <div>
-                    <ExpandMoreIcon style={{width: "50px", height: "50px"}}/>
+                    <ExpandMoreIcon className="landing__bottom-down" style={{width: "50px", height: "50px"}}/>
                 </div>
             </div>
         </div>
