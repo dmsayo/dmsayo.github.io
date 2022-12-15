@@ -1,0 +1,24 @@
+.landing {
+    // background-image: url("./img/home-background2.jpg");
+    height: 100vh;
+    // background-size: cover;
+    // background-position: center;
+    // background-attachment: fixed;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing__image {
+    img {
+        height: 33vw;
+        width: auto;
+    }
+
+
+    padding: 0 40px;
+}
