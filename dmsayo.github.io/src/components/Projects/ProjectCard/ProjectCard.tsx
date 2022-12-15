@@ -16,9 +16,8 @@ export const ProjectCard = () => {
             </div>
             <div className="project-card__link">
                 <div className="project-card__link-nav">
-                Learn More <span style={{display: "flex", alignItems: "center"}}> <ChevronRightIcon /></span>
+                    Learn More <span style={{ display: "flex", alignItems: "center" }}> <ChevronRightIcon /></span>
                 </div>
-              
             </div>
         </div>
     )

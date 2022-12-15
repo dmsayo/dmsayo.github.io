@@ -15,7 +15,7 @@ export const Navbar = () => {
                     Project
                 </div>
                 <div className="navbar__link-item">
-                    Contact
+                    Contact Me
                 </div>
             </div>
         </div>

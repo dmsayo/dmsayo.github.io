@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import { About } from './components/About/About';
 import { Landing } from './components/Landing/Landing';
 import { Navbar } from './components/Navbar/Navbar';
 import { Projects } from './components/Projects/Projects';
@@ -9,9 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Landing />
-      <div className="App_projects">
-        Projects
-      </div>
+      <About />
       <Projects />
     </div>
   );
