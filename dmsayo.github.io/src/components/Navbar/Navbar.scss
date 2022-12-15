@@ -1,0 +1,28 @@
+.navbar {
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;   
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    padding: 35px 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__badge {
+    font-size: 30px;
+}
+
+.navbar__links {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__link-item {
+    padding-left: 15px;
+}
