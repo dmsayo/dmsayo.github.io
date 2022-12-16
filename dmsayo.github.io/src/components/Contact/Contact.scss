@@ -12,3 +12,23 @@
     font-weight: 650;
     text-align: center;
 }
+
+.contact__body {
+
+}
+
+.contact__body-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 5px 0px;
+}
+
+.contact__body-entry-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact__body-entry-content {
+    padding-left: 20px;
+}

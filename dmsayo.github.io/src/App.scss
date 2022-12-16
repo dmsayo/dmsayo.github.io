@@ -29,6 +29,11 @@ a {
     transition: .15s;
 }
 
+a:hover {
+    cursor: pointer;
+    color: rgba(14, 144, 101);
+}
+
 .App_projects {
     color: #f8f8f8;
     font-size: 60px;
