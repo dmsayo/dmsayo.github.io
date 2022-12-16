@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { HashLink } from "react-router-hash-link";
 import "./Landing.scss";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
@@ -11,19 +12,21 @@ export const Landing = () => {
                 </div>
                 <div className="landing__nav">
                     <div className="landing__nav-item">
-                        About
+                        <HashLink smooth to={"/#about"}>About</HashLink>
                     </div>
                     <div className="landing__nav-item">
-                        Projects
+                        <HashLink smooth to={"/#projects"}>Projects</HashLink>
                     </div>
                     <div className="landing__nav-item">
-                        Contact
+                        <HashLink smooth to={"/#contact"}>Contact</HashLink>
                     </div>
                 </div>
             </div>
             <div className="landing__bottom">
                 <div>
-                    <ExpandMoreIcon className="landing__bottom-down" style={{width: "50px", height: "50px"}}/>
+                    <HashLink smooth to={"/#about"}>
+                        <ExpandMoreIcon className="landing__bottom-down" style={{ width: "50px", height: "50px" }} />
+                    </HashLink>
                 </div>
             </div>
         </div>

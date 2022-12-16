@@ -18,6 +18,11 @@
     font-size: 30px;
 }
 
+.navbar__badge:hover {
+    cursor: pointer;
+    color: rgba(14, 144, 101);
+}
+
 .navbar__links {
     display: flex;
     flex-direction: row;

@@ -19,6 +19,12 @@ body {
     line-height: 1.6;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+  }
+
 .App_projects {
     color: #f8f8f8;
     font-size: 60px;
