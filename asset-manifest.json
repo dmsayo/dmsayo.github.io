@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dmsayo.github.io/static/css/main.81955638.css",
-    "main.js": "/dmsayo.github.io/static/js/main.d1bdd28a.js",
-    "static/media/pfp_3.jpg": "/dmsayo.github.io/static/media/pfp_3.b0a3602b884922074cc5.jpg",
-    "index.html": "/dmsayo.github.io/index.html",
-    "main.81955638.css.map": "/dmsayo.github.io/static/css/main.81955638.css.map",
-    "main.d1bdd28a.js.map": "/dmsayo.github.io/static/js/main.d1bdd28a.js.map"
+    "main.css": "/static/css/main.81955638.css",
+    "main.js": "/static/js/main.06f9ea06.js",
+    "static/media/pfp_3.jpg": "/static/media/pfp_3.b0a3602b884922074cc5.jpg",
+    "index.html": "/index.html",
+    "main.81955638.css.map": "/static/css/main.81955638.css.map",
+    "main.06f9ea06.js.map": "/static/js/main.06f9ea06.js.map"
   },
   "entrypoints": [
     "static/css/main.81955638.css",
-    "static/js/main.d1bdd28a.js"
+    "static/js/main.06f9ea06.js"
   ]
 }
