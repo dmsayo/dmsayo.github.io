@@ -1,8 +1,8 @@
 {
   "name": "dmsayo.github.io",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://dmsayo.github.io/dmsayo.github.io",
+  "private": false,
+  "homepage": "https://dmsayo.github.io/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
