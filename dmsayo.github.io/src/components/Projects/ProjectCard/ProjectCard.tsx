@@ -1,22 +1,30 @@
 import React from "react";
 import "./ProjectCard.scss";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+// import defaultImage from "../Images/home-background2.jpg";
 
-export const ProjectCard = () => {
+type ProjectCardProps = {
+    title: string;
+    imageUrl: string;
+    description: string;
+    moreLink: string;
+}
+
+export const ProjectCard = (props: ProjectCardProps) => {
     return (
         <div className="project-card">
             <div className="project-card__title">
-                Title
+                {props.title}
             </div>
             <div className="project-card__image">
-                Image
+                {/* <img src={props.imageUrl} alt="" /> */}
             </div>
             <div className="project-card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum assumenda quae amet maxime animi sapiente numquam saepe deleniti sit at, suscipit corrupti eum nemo ipsam nobis tenetur, deserunt ratione consequatur odio beatae sunt sed consequuntur. Cupiditate placeat, tempora, iure ex architecto in dicta aut eum dolorem corporis consequuntur aliquam.
+                {props.description}
             </div>
             <div className="project-card__link">
                 <div className="project-card__link-nav">
-                    Learn More <span style={{ display: "flex", alignItems: "center" }}> <ChevronRightIcon /></span>
+                    <a href={props.moreLink}>Learn More</a>  <span style={{ display: "flex", alignItems: "center" }}> <ChevronRightIcon /></span>
                 </div>
             </div>
         </div>
