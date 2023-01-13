@@ -5,7 +5,7 @@ export const Contact = () => {
     return (
         <div className="contact" id="contact">
             <div className="contact__title">
-                Contact Me
+                Get in Touch
             </div>
             <div className="contact__body">
                 <div className="contact__body-entry">
@@ -22,6 +22,14 @@ export const Contact = () => {
                     </div>
                     <div className="contact__body-entry-content">
                         <a href="https://github.com/dmsayo">github.com/dmsayo</a>
+                    </div>
+                </div>
+                <div className="contact__body-entry">
+                    <div className="contact__body-entry-name">
+                        LinkedIn:
+                    </div>
+                    <div className="contact__body-entry-content">
+                        <a href="https://linkedin.com/in/derrylsayo">linkedin.com/in/derrylsayo</a>
                     </div>
                 </div>
             </div>
