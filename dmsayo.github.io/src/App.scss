@@ -6,7 +6,6 @@
 
 html {
     height: 100%;
-
 }
 
 body {
@@ -22,11 +21,11 @@ a {
     color: inherit;
     text-decoration: inherit;
     cursor: inherit;
-    -o-transition: .15s;
-    -ms-transition: .15s;
-    -moz-transition: .15s;
-    -webkit-transition: .15s;
-    transition: .15s;
+    -o-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -webkit-transition: 0.15s;
+    transition: 0.15s;
 }
 
 a:hover {
@@ -35,9 +34,9 @@ a:hover {
 }
 
 .App {
-    max-width: 1250px; 
-	margin: 0 auto; 
-	float: none; 
+    max-width: 1250px;
+    margin: 0 auto;
+    float: none;
 }
 
 .App_projects {

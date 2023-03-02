@@ -1,24 +1,28 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 import "./Landing.scss";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export const Landing = () => {
     return (
         <div className="landing">
             <div className="landing__top">
-                <div className="landing__header">
-                    DERRYL SAYO
-                </div>
+                <div className="landing__header">DERRYL SAYO</div>
                 <div className="landing__nav">
                     <div className="landing__nav-item">
-                        <HashLink smooth to={"/#about"}>About</HashLink>
+                        <HashLink smooth to={"/#about"}>
+                            About
+                        </HashLink>
                     </div>
                     <div className="landing__nav-item">
-                        <HashLink smooth to={"/#projects"}>Projects</HashLink>
+                        <HashLink smooth to={"/#projects"}>
+                            Projects
+                        </HashLink>
                     </div>
                     <div className="landing__nav-item">
-                        <HashLink smooth to={"/#contact"}>Contact</HashLink>
+                        <HashLink smooth to={"/#contact"}>
+                            Contact
+                        </HashLink>
                     </div>
                 </div>
             </div>
@@ -30,5 +34,5 @@ export const Landing = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 };
